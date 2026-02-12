@@ -1,3 +1,13 @@
+"""
+================================================================================
+File: pandas_missingdata.py
+Purpose: Demonstrate handling missing data in Pandas DataFrames using various
+         techniques including dropna(), fillna(), and conditional operations.
+Created: 2026-02-11
+Author: Julio Arriaga
+================================================================================
+"""
+
 import numpy as np
 import pandas as pd
 from numpy.random import randn
