@@ -79,5 +79,9 @@ print("right")
 print(right)
 # Join the DataFrames on the index
 joined = left.join(right)
-print("Joined DataFrame")
+print("Joined DataFrame using default join (inner)")
 print(joined)
+# Join the DataFrames using an outer join
+joined_outer = left.join(right, how='outer')
+print("Joined DataFrame using outer join")
+print(joined_outer)
